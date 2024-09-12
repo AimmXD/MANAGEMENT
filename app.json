@@ -8,12 +8,20 @@
        "group",
        "manager"
     ],   
- "repository": "https://github.com/codebitey/NobitaProBot",
+ "repository": "https://github.com/AimmXD/MANAGEMENTBOT",
+ "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    }
+  ],
  "stack": "heroku-22",
  "addons": [
     {
        "options": {
-          "version": "15"
+          "version": "14"
        },
        "plan": "heroku-postgresql"
     }
