@@ -60,3 +60,4 @@ pyfiglet
 MukeshAPI
 pretty-errors
 pymongo
+pybind11>=2.12
